@@ -45,6 +45,35 @@ Na **Origin Data**, seguimos um fluxo rigoroso para garantir que o código em pr
 * **Back-end:** 1 Desenvolvedor (Node.js & Automações)
 * **DevOps:** 1 Especialista (Infra & Deploy)
 
+
+### BRANCHS
+
+feature/
+
+Criada a partir da dev.
+
+Exemplo: feature/login-page, feature/payment-api.
+
+Cada nova funcionalidade ou melhoria deve ter sua própria branch.
+
+bugfix/
+
+Também criada a partir da dev.
+
+Exemplo: bugfix/fix-navbar, bugfix/api-timeout.
+
+Usada para corrigir problemas que não estão em produção ainda.
+
+hotfix/
+
+Criada a partir da main.
+
+Exemplo: hotfix/security-patch, hotfix/fix-prod-error.
+
+Usada para corrigir problemas críticos diretamente em produção.
+
+
+
 ---
 
 ### 📋 Avisos Importantes
